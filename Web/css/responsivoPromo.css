@@ -1,0 +1,209 @@
+@charset "utf-8";
+/*TABLET*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /*----------------CARACTERISTICAS--------------------*/
+  .caracteristicas ul li .title {
+    font: 16px/1.25 "Roboto", sans-serif;
+  }
+  .caracteristicas ul li .info {
+    font: 14px/1.25 "Roboto", sans-serif;
+  }
+  /*------------------------------------*/
+  .contentCrono .content h3 {
+    font-size: 18px;
+  }
+  .contentCrono .content p {
+    display: inline-block;
+    width: 370px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .contentCrono .content {
+    width: 450px;
+    height: 250px;
+    margin: 70px 30px;
+  }
+  /* --------------------------------------------- */
+  .promocaoSec ul li .img-settings {
+    position: absolute;
+    width: 180px;
+    height: 130px;
+    top: 35px;
+    left: 165px;
+  }
+  .promocaoSec div ul li h3 {
+    font-size: 70px;
+  }
+  .promocaoSec div ul li .off {
+    margin: -40px 0 0 80px;
+  }
+  .promocaoSec div ul li .porcen {
+    margin: -63px 0 0 80px;
+  }
+  .promocaoSec div ul li h4 {
+    font-size: 19px;
+    letter-spacing: 1px;
+  }
+  /*------------------------PROMOÇÕES MENSAIS----------------------------*/
+  .before-rodape {
+    margin-top: 0px;
+  }
+  .promoMensal .container .img {
+    padding-top: 0px;
+    margin-left: 0;
+  }
+  .promoMensal .container .content {
+    height: 300px;
+    width: 25rem;
+    position: absolute;
+    margin-left: -90px;
+  }
+}
+/*CELULAR*/
+@media only screen and (max-width: 787px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 300px;
+  }
+
+  .introducao h1 {
+    letter-spacing: 1px;
+    font-size: 46px;
+    margin-top: 0px;
+  }
+  .caracteristicas {
+    margin-bottom: 200px;
+  }
+
+  .cafeShop {
+    width: 300px;
+    background: none;
+    margin: 30px auto;
+    float: none;
+  }
+  .cafeShop .img {
+    display: block;
+    width: 300px;
+  }
+  .cafeShop .contentCrono {
+    position: relative;
+    display: block;
+    width: 300px;
+  }
+  .cronometro {
+    width: 300px;
+  }
+  .contentCrono .content {
+    width: 300px;
+    margin: 0px;
+  }
+  .contentCrono .content h3 {
+    display: inline-block;
+    width: 290px;
+    padding-top: 60px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .contentCrono .content p {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 21px;
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    padding-right: 10px;
+  }
+  .time {
+    width: 30px;
+    margin-right: 7px;
+  }
+
+  .time h2 {
+    font-size: 11px;
+  }
+  .time small {
+    font-size: 7px;
+  }
+  .countdown {
+    margin-left: 68px;
+  }
+
+  /*---------------------ITENS PROMOCAO--------------------------------------*/
+  .promocaoSec {
+    margin-top: 350px;
+    margin-bottom: 1750px;
+  }
+  .promocaoSec div ul li h3 {
+    font-size: 50px;
+  }
+  .promocaoSec div ul li .off {
+    margin: -35px 0 0 60px;
+    font-size: 18px;
+  }
+  .promocaoSec div ul li .porcen {
+    margin: -53px 0 0 60px;
+    font-size: 18px;
+  }
+  .promocaoSec div ul li h4 {
+    font-size: 18px;
+
+    letter-spacing: 1px;
+  }
+  .promocaoSec div ul li p {
+    font-size: 16px;
+  }
+  .promocaoSec ul li .img-settings {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 32px;
+    left: 160px;
+  }
+  .promocaoSec ul li .mg3 {
+    background-size: 80%;
+  }
+  .promocaoSec ul li .mg4 {
+    background-size: 80%;
+  }
+  .promocaoSec ul li .mg5 {
+    background-size: 70%;
+  }
+  .promocaoSec ul li .mg8 {
+    background-size: 80%;
+  }
+  /* ---------------------------------------------------------------------- */
+  .promoMensal {
+    height: 550px;
+    margin-top: 400px;
+  }
+  .promoMensal .container .img {
+    display: inline-block;
+    max-width: 300px;
+    height: 200px;
+    margin-top: 70px;
+    padding-left: 0px;
+  }
+  .promoMensal .container .content {
+    width: 300px;
+    position: relative;
+    display: block;
+    margin: 0;
+  }
+  .promoMensal .container .content h3 {
+    width: 200px;
+    margin: 15px;
+  }
+  .promoMensal .container .content p {
+    display: inline-block;
+    width: 300px;
+    margin: 15px 15px 30px 15px;
+  }
+  .promoMensal .container .content .mensal {
+    margin: 15px;
+  }
+  .before-rodape {
+    margin: 0px;
+  }
+}

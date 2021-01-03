@@ -1,0 +1,296 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+/*------------------------------------------------------------------------------------*/
+.titulo-carda {
+  margin-bottom: 50px;
+}
+
+.separador_carda {
+  display: block;
+  margin: -14px auto;
+}
+
+.init {
+  background: url("../Img/bgCardapio.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  width: 100%;
+  margin-bottom: 0;
+}
+.introducao {
+  width: 540px;
+  margin: 230px 0px 0px 20px;
+}
+h1 {
+  font-size: 60px;
+  margin: -80px 0 40px;
+}
+.servicos {
+  height: 130px;
+
+  text-align: center;
+  margin-bottom: 50px;
+}
+.servicos ul li .imag {
+  width: 50px;
+  height: 50px;
+  margin: 10px auto;
+  background: orchid;
+}
+.servicos ul li .imag1 {
+  background: url("../Img/IconCappuccino.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.servicos ul li .imag2 {
+  background: url("../Img/IconMoney.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.servicos ul li .imag3 {
+  background: url("../Img/IconPote.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.servicos ul li .imag4 {
+  background: url("../Img/IconCafee.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.servicos ul li h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.servicos ul li p {
+  color: #845c00;
+  font-size: 15px;
+}
+.cardap {
+  width: 100%;
+  padding: 30px 0;
+}
+.cardap .itens li {
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  height: 270px;
+}
+.cardap .itens li .porcent {
+  background: #d6c7a0;
+  width: 50px;
+  height: 30px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 0 5px 5px 0;
+}
+.cardap .itens li .porcent p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.cardap .itens li .imge {
+  background: chocolate;
+  width: 150px;
+  height: 150px;
+  margin: 10px auto 30px;
+}
+.cardap .itens li p {
+  text-align: center;
+}
+.cardap .itens li a {
+  position: absolute;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  top: 215px;
+  left: 165px;
+  background: #ffaa00;
+}
+.cardap .itens li a img {
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 9px 10px;
+}
+
+.cardap .itens li .imeg1 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(2\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg2 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(7\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg3 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(8\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg4 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(1\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg5 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(3\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg6 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(4\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg7 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(5\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .itens li .imeg8 {
+  background: url("../Img/Cafe_Cardapio_Oficial/cafePromo\ \(6\).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.cardap .infos {
+  text-align: center;
+}
+.cardap .infos .title {
+  color: #5d5d5d;
+  font-size: 18px;
+  letter-spacing: 1px;
+
+  margin: 10px 0;
+}
+.cardap .infos p {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.cardap .infos p span {
+  color: #a5a5a5;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.recentes {
+  background: #010101;
+  color: #fff;
+  width: 100%;
+  height: 335px;
+}
+.recentes .titulo-carda h2 {
+  margin-top: 30px;
+  color: #fff;
+}
+.recentes ul li {
+  background: #140d06;
+  height: 200px;
+  text-align: center;
+  transition: all linear 0.2s;
+}
+.recentes ul li:hover {
+  transition: all linear 0.2s;
+  box-shadow: inset 0px 0px 5px #ffaa00;
+}
+.recentes ul li .img {
+  width: 120px;
+  height: 120px;
+  margin: 30px auto 10px;
+}
+.recentes ul li .img1 {
+  background: url("../Img/Cafe_Recentes/CafeRecentes\ \(5\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.recentes ul li .img2 {
+  background: url("../Img/Cafe_Recentes/CafeRecentes\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.recentes ul li .img3 {
+  background: url("../Img/Cafe_Recentes/CafeRecentes\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.recentes ul li .img4 {
+  background: url("../Img/Cafe_Recentes/CafeRecentes\ \(3\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.recentes ul li .img5 {
+  background: url("../Img/Cafe_Recentes/CafeRecentes\ \(4\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.economize {
+  margin-top: 60px;
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background: url("../Img/imgParalax.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.economize .content {
+  background: #fff9;
+  position: absolute;
+  height: 300px;
+  margin-top: 150px;
+
+  text-align: center;
+}
+.economize .content h3 {
+  font-family: "Roboto thin", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #000;
+
+  max-width: 500px;
+  margin: 80px auto 20px;
+}
+.economize .content p {
+  font-family: "Roboto thin", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #000;
+}
+.economize .content p span {
+  text-decoration: underline;
+}
+.before-rodape {
+  margin-top: 60px;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/*TABLET*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .before-rodape {
+    margin-top: 60px;
+  }
+  .cardap .itens li a {
+    top: 215px;
+    left: 115px;
+  }
+  .cardap .itens li p {
+    text-align: left;
+    padding-left: 20px;
+  }
+  .cardap .itens li .porcent p {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+/*CELULAR*/
+@media only screen and (max-width: 787px) {
+  body {
+    overflow-x: hidden;
+  }
+  .container {
+    width: 300px;
+  }
+  .init {
+    margin-bottom: 0;
+  }
+  .introducao h1 {
+    letter-spacing: 1px;
+    font-size: 46px;
+    margin-top: 0px;
+  }
+  .servicos {
+    margin-bottom: 350px;
+  }
+  .recentes {
+    background: #010101;
+    color: #fff;
+    width: 100%;
+    height: 1265px;
+    margin-bottom: 20px;
+  }
+  .before-rodape {
+    margin-top: 60px;
+  }
+  .cardap .itens li a {
+    top: 205px;
+    left: 205px;
+  }
+  .cardap .itens li {
+    margin-bottom: 120px;
+  }
+  .cardap {
+    position: relative;
+  }
+  .cardap .infos .text1 {
+    position: absolute;
+    top: 330px;
+  }
+  .cardap .infos .text2 {
+    position: absolute;
+    top: 720px;
+  }
+  .cardap .infos .text3 {
+    position: absolute;
+    top: 1110px;
+  }
+  .cardap .infos .text4 {
+    position: absolute;
+    top: 1500px;
+  }
+  .cardap .infos .text5 {
+    position: absolute;
+    top: 1890px;
+  }
+  .cardap .infos .text6 {
+    position: absolute;
+    top: 2280px;
+  }
+  .cardap .infos .text7 {
+    position: absolute;
+    top: 2670px;
+  }
+  .cardap .infos .text8 {
+    position: absolute;
+    top: 3060px;
+  }
+}

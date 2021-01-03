@@ -1,0 +1,1048 @@
+@charset "utf-8";
+/*Light Italic*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+/*Regular*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/*Estilos Gerais*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+ul,
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.btn {
+  background: #ffaa00;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 25px;
+  margin-left: 4px;
+  box-sizing: border-box;
+  /*--------*/
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+}
+.btn:hover {
+  background: none;
+  color: #ffaa00;
+  box-shadow: inset 0 0 0 3px #ffaa00;
+}
+#btn {
+  background: #ffaa00;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 25px;
+  margin-left: 4px;
+  box-sizing: border-box;
+  /*--------*/
+  text-align: center;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+}
+#btn:hover {
+  background: none;
+  color: #ffaa00;
+  box-shadow: inset 0 0 0 3px #ffaa00;
+}
+.alinha-button-promo {
+  text-align: center;
+  clear: both;
+  padding-top: 30px;
+}
+.alinha-button-carda {
+  text-align: center;
+  clear: both;
+  padding-top: 40px;
+  position: relative;
+}
+.subtitulo {
+  font-family: "Roboto ", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: none;
+  text-align: center;
+}
+.subtitulo-preto {
+  font-family: "Roboto light", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: none;
+  text-align: center;
+}
+.separador-cafe {
+  top: 47px;
+  left: 347px;
+  position: absolute;
+}
+
+.cafe-populares img.separador_populares {
+  display: block;
+  margin: -14px auto;
+}
+.cafe-promo .separador_promo {
+  display: block;
+  margin: -14px auto;
+}
+.cafe-cardapio .separador_carda {
+  display: block;
+  margin: -14px auto;
+}
+.sobre .separador_sobre {
+  display: block;
+  margin: -14px auto;
+}
+.contato .itens_contato .form .titulo-contato .separador_contato {
+  display: block;
+  margin: -14px auto;
+}
+/*HEADER*/
+.init {
+  background: url("../Img/Introducao.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 80px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 80px;
+  z-index: 10;
+  padding-top: 5px;
+}
+
+.header_menu {
+  text-align: right;
+}
+
+.header_menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.header_menu ul li a {
+  color: #fff;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 20px;
+  padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+  color: #ffaa00;
+  transition: color 0.5s;
+}
+.header_menu ul li a.menu_ativo {
+  color: #ffaa00;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+/*-----------------------------------------------------------------------------*/
+.header-mod {
+  background: #010101;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.8);
+  padding-top: 5px;
+}
+/*-----------------------------------------------------------------------------*/
+
+.introducao {
+  width: 540px;
+  margin: 150px 0px 0px 20px;
+}
+.init h1 {
+  color: #fff;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-bottom: 10px;
+  font-family: "Roboto thin", sans-serif;
+}
+.init h1::before {
+  content: "";
+  display: block;
+  width: 85px;
+  height: 4px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background: #ffaa00;
+}
+
+.quote-externo {
+  color: #fff;
+  margin-bottom: 25px;
+  margin-left: 7px;
+}
+
+.quote-externo p {
+  font-family: "Roboto thin", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+/*Café*/
+
+.cafe-info {
+  content: "";
+  display: block;
+  background: url("../Img/ItemOrigamid.png") no-repeat center;
+}
+
+.cafe-info img {
+  margin: -35px auto;
+}
+
+.cafe-lista {
+  padding-top: 10px;
+  overflow: hidden;
+}
+
+.cafe-lista li {
+  text-align: center;
+  padding: 0 20px;
+}
+.cafe-lista li h3 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: none;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+}
+
+.cafe-lista li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffaa00;
+  margin: 6px auto 10px;
+  z-index: -1;
+}
+.cafe-info li p {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Roboto", sans-serif;
+}
+/*--------------------------------------------------------*/
+/*Cafés Populares*/
+
+.cafe-populares {
+  background-color: #010101;
+  width: 100%;
+  height: 390px;
+  margin-top: 80px;
+}
+
+.cafe-populares h2.subtitulo-preto {
+  margin-top: 20px;
+}
+
+.cafe-populares .item_populares ul {
+  margin-top: 0px;
+}
+.cafe-populares .titulo-populares {
+  padding-top: 15px;
+}
+.cafe-populares .item_populares ul li {
+  height: 200px;
+  margin-top: 60px;
+  transition: all 0.2s;
+}
+.cafe-populares .item_populares ul li:hover {
+  box-shadow: inset 0px 0px 20px rgba(255, 255, 255, 1);
+}
+.cafe-populares .item_populares ul li.po1 {
+  background: url("../Img/Cafe_Em_Po/EmPo\ \(2\).png") no-repeat center;
+  background-size: cover;
+}
+.cafe-populares .item_populares ul li.po2 {
+  background: url("../Img/Cafe_Em_Po/EmPo\ \(3\).png") no-repeat center;
+  background-size: cover;
+}
+.cafe-populares .item_populares ul li.po3 {
+  background: url("../Img/Cafe_Em_Po/EmPo\ \(1\).png") no-repeat center;
+  background-size: cover;
+}
+.cafe-populares .item_populares ul li.po4 {
+  background: url("../Img/Cafe_Em_Po/EmPo\ \(4\).png") no-repeat center;
+  background-size: cover;
+}
+.cafe-populares .item_populares ul li.po5 {
+  background: url("../Img/Cafe_Em_Po/EmPo\ \(5\).png") no-repeat center;
+  background-size: cover;
+}
+
+.cafe-populares .item_populares ul li p {
+  margin-top: 220px;
+  font-family: "Roboto light", sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #fff;
+  text-transform: none;
+}
+
+.cafe-populares .item_populares ul li p::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  background: #ffaa00;
+}
+
+/*---------------------------------------------------------------------------------*/
+/*PROMOÇÕES*/
+.cafe-promo {
+  position: relative;
+  height: 600px;
+  padding-top: 45px;
+}
+.cafe-promo .titulo-promo {
+  margin-top: 50px;
+}
+
+.cafe-promo ul {
+  margin-top: 70px;
+}
+.cafe-promo ul li {
+  position: relative;
+  height: 60px;
+  background-color: #d6c7a0;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #845c00;
+}
+
+.cafe-promo ul li:hover {
+  box-shadow: 0px 0px 10px #845c00;
+}
+
+.cafe-promo ul li .foto {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+}
+
+.cafe-promo ul li .img1 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(5\).png")
+    no-repeat center;
+  background-size: cover;
+}
+.cafe-promo ul li .img2 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(2\).png")
+    no-repeat center;
+  background-size: cover;
+}
+
+.cafe-promo ul li .img3 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(7\).png")
+    no-repeat center;
+  background-size: cover;
+}
+
+.cafe-promo ul li .img4 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(3\).png")
+    no-repeat center;
+  background-size: cover;
+}
+.cafe-promo ul li .img5 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(6\).png")
+    no-repeat center;
+  background-size: cover;
+}
+.cafe-promo ul li .img6 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(1\).png")
+    no-repeat center;
+  background-size: cover;
+}
+.cafe-promo ul li .img7 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(3\).png")
+    no-repeat center;
+  background-size: cover;
+}
+.cafe-promo ul li .img8 {
+  background: url("../Img/Cafe_Promocao_Home/CafePromoHome\ \(4\).png")
+    no-repeat center;
+  background-size: cover;
+}
+
+.cafe-promo ul li .conteudo {
+  position: absolute;
+  height: 100%;
+  width: 65%;
+  display: inline-block;
+  margin-left: 10px;
+  box-sizing: border-box;
+}
+.cafe-promo ul li .conteudo p.title {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  margin: 10px 0px 0px 5px;
+  color: #000;
+}
+.cafe-promo ul li .conteudo p.legenda {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  margin: 5px 5px;
+  color: #845c00;
+}
+.cafe-promo ul li .conteudo p.preco {
+  position: absolute;
+  display: block;
+  margin: -30px 10px 0px 270px;
+  color: #845c00;
+}
+
+.cafe-promo .container-grao {
+  position: relative;
+  max-width: 1400px;
+  height: 600px;
+  margin: -500px auto;
+  text-align: center;
+  z-index: -1;
+}
+.cafe-promo .grao {
+  background: url("../Img/Grãos1.png") no-repeat center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+  position: absolute;
+
+  top: 10px;
+
+  z-index: -1;
+  box-shadow: none;
+}
+.cafe-promo .grao-2 {
+  background: url("../Img/Grãos2.png") no-repeat center;
+  background-size: cover;
+  width: 350px;
+  height: 320px;
+
+  position: absolute;
+
+  bottom: 0;
+  right: 10px;
+  z-index: -1;
+  box-shadow: none;
+}
+
+/*------Cardapio------------------*/
+
+.cafe-cardapio {
+  background: #d6c7a0;
+  width: 100%;
+  height: 350px;
+  margin-top: 50px;
+}
+.cafe-cardapio .container-planta {
+  max-width: 85rem;
+  position: relative;
+  margin: 0 auto;
+  padding: 0px;
+}
+.cafe-cardapio .container-planta img {
+  position: absolute;
+  margin-top: 25px;
+}
+
+.cafe-cardapio .titulo-carda {
+  margin-top: 20px;
+}
+
+.cafe-cardapio .itens-cardapio {
+  margin-top: 60px;
+}
+
+.cafe-cardapio .itens-cardapio ul li {
+  background: #fff;
+  height: 170px;
+
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(132, 92, 0, 0.5);
+}
+.cafe-cardapio .itens-cardapio ul li:hover {
+  box-shadow: 0px 0px 10px #845c00;
+}
+/*------------------Item 1 ------------------------*/
+.cafe-cardapio .itens-cardapio ul li.item-1 .img {
+  background: url("../Img/Cafe_Cardapio_Home/CafeCardapio1.png") no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 85px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-1 p.preco {
+  color: #845c00;
+  text-align: center;
+  margin-top: 10px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-1 p.name {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.cafe-cardapio .itens-cardapio ul li.item-1 p.star {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*------------------Item 2 ------------------------*/
+.cafe-cardapio .itens-cardapio ul li.item-2 .img {
+  background: url("../Img/Cafe_Cardapio_Home/CafeCardapio2.png") no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 85px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-2 p.preco {
+  color: #845c00;
+  text-align: center;
+  margin-top: 10px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-2 p.name {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.cafe-cardapio .itens-cardapio ul li.item-2 p.star {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*------------------Item 3 ------------------------*/
+.cafe-cardapio .itens-cardapio ul li.item-3 .img {
+  background: url("../Img/Cafe_Cardapio_Home/CafeCardapio3.png") no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 85px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-3 p.preco {
+  color: #845c00;
+  text-align: center;
+  margin-top: 10px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-3 p.name {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.cafe-cardapio .itens-cardapio ul li.item-3 p.star {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*------------------Item 4 ------------------------*/
+
+.cafe-cardapio .itens-cardapio ul li.item-4 .img {
+  background: url("../Img/Cafe_Cardapio_Home/CafeCardapio4..png") no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 85px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-4 p.preco {
+  color: #845c00;
+  text-align: center;
+  margin-top: 10px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-4 p.name {
+  text-align: center;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.cafe-cardapio .itens-cardapio ul li.item-4 p.star {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*------------------Item 5 ------------------------*/
+.cafe-cardapio .itens-cardapio ul li.item-5 .img {
+  background: url("../Img/Cafe_Cardapio_Home/CafeCardapio5.png") no-repeat
+    center;
+  background-size: cover;
+  width: 100%;
+  height: 85px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-5 p.preco {
+  color: #845c00;
+  text-align: center;
+  margin-top: 10px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-5 p.name {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin-top: 5px;
+}
+.cafe-cardapio .itens-cardapio ul li.item-5 p.star {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+/*------------------ Fim ------------------------*/
+
+.cafe-cardapio .alinha-button-carda a.carda:hover {
+  background: none;
+  color: #845c00;
+  box-shadow: inset 0 0 0 3px #845c00;
+}
+/*------------------ End section Cardápio------------------------*/
+
+/*------------------ SOBRE------------------------*/
+.sobre {
+  margin-top: 60px;
+}
+.sobre .titulo-sobre {
+  margin-top: 40px;
+}
+
+.sobre .itens_sobre {
+  margin-top: 65px;
+}
+
+.sobre .itens_sobre ul li {
+  height: 285px;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+  text-align: center;
+  transition: all 0.5s;
+}
+.sobre .itens_sobre ul li:hover {
+  box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.5);
+  transform: scale(1.1, 1.1);
+}
+
+.sobre .itens_sobre ul li .img {
+  height: 90px;
+  width: 90px;
+
+  margin: 35px auto;
+}
+
+.sobre .itens_sobre ul li .title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 20px;
+}
+
+.sobre .itens_sobre ul li .content {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  padding: 0px 25px;
+}
+/*-----------------ITENS SOBRE--------------*/
+
+.sobre .itens_sobre ul li.sobre-1 .img {
+  background: url("../Img/IconCarrinhoSobre.png") no-repeat center;
+  background-size: cover;
+  width: 80px;
+  height: 70px;
+}
+
+.sobre .itens_sobre ul li.sobre-2 .img {
+  background: url("../Img/IconAlvoSobre.png") no-repeat center;
+  background-size: cover;
+  width: 80px;
+  height: 70px;
+}
+.sobre .itens_sobre ul li.sobre-3 .img {
+  background: url("../Img/IconPessoasSobre.png") no-repeat center;
+  background-size: cover;
+  width: 80px;
+  height: 70px;
+}
+/*---------------------CONTATO------------------------*/
+.contato {
+  margin-top: 100px;
+  background: url("../Img/aaaaa.png") no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.contato .itens_contato .icon {
+  background: url("../Img/IconFaleConosco.png") no-repeat center;
+  background-size: cover;
+  width: 360px;
+  height: 250px;
+  margin: 100px 0px 0px 0px;
+}
+
+.contato .itens_contato .form {
+  position: relative;
+  background: #fff;
+  width: 445px;
+  height: 505px;
+
+  box-shadow: 0px 10px 5px rgba(0, 0, 0, 0.2);
+
+  margin: 260px 0px 0px 145px;
+}
+
+/*-----------------------EFEITO FORM-----------------------------------------*/
+.contato_form .group-efect {
+  position: relative;
+}
+.contato_form .group-efect:focus-within::after {
+  content: "";
+
+  width: calc(100% - 3.5rem);
+  height: 2px;
+  background: #845c00;
+
+  position: absolute;
+  left: 0.5em;
+  right: 0.5rem;
+  bottom: 1px;
+}
+
+/*----------------------------------------------------------------*/
+.contato .itens_contato .form .titulo-contato {
+  padding-top: 50px;
+}
+.contato .itens_contato .form .contato_form {
+  display: block;
+  margin: 60px 0 0 38px;
+}
+.contato .itens_contato .form .contato_form input {
+  display: block;
+  width: 23rem;
+  height: 3.5rem;
+
+  padding-left: 10px;
+
+  margin-bottom: 20px;
+
+  outline: 0;
+
+  border: 0;
+
+  box-shadow: 0px 0px 3px rgba(214, 199, 160), 0px 0px 3px rgba(214, 199, 160),
+    0px 0px 3px rgba(214, 199, 160);
+}
+.contato .itens_contato .form .contato_form input::placeholder {
+  color: #845c00;
+}
+.contato .itens_contato .form .contato_form .btn-contato {
+  background: #ffaa00;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 25px;
+  margin: 10px 0px 0px 120px;
+  box-sizing: border-box;
+  /*--------*/
+
+  font-weight: bolder;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 0.8px;
+  transition: all 400ms ease;
+}
+.contato .itens_contato .form .contato_form .btn-contato:hover {
+  background: none;
+  color: #ffaa00;
+  box-shadow: inset 0 0 0 3px #ffaa00;
+  cursor: pointer;
+}
+/*-------------------------- BEFORE RODAPE------------------*/
+.before-rodape {
+  height: 150px;
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  margin-top: 400px;
+  text-align: center;
+}
+.before-rodape .container-br {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1450px;
+  height: 150px;
+}
+.before-rodape div ul {
+  text-align: center;
+}
+.before-rodape div ul li {
+  background: #845c00;
+  height: 150px;
+  width: 19.5%;
+
+  display: inline-block;
+  margin: 0 0.7px 0 0.7px;
+  box-sizing: border-box;
+}
+.before-rodape div ul li:nth-child(1) {
+  background: url("../Img/rodape\ \(3\).png") no-repeat center;
+  background-size: cover;
+}
+.before-rodape div ul li:nth-child(2) {
+  background: url("../Img/rodape\ \(2\).png") no-repeat center;
+  background-size: cover;
+}
+.before-rodape div ul li:nth-child(3) {
+  background: url("../Img/rodape\ \(4\).png") no-repeat center;
+  background-size: cover;
+}
+.before-rodape div ul li:nth-child(4) {
+  background: url("../Img/rodape\ \(5\).png") no-repeat center;
+  background-size: cover;
+}
+.before-rodape div ul li:nth-child(5) {
+  background: url("../Img/rodape\ \(1\).png") no-repeat center;
+  background-size: cover;
+}
+/*-----------------------RODAPE -----------------------------*/
+.rodape {
+  width: 100%;
+
+  margin-top: 6px;
+}
+
+.rodape .redes {
+  background: #d6c7a0;
+
+  height: 90px;
+  width: 100%;
+  position: relative;
+}
+
+.rodape .redes ul {
+  display: block;
+  text-align: center;
+}
+
+.rodape .redes ul a {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  margin-right: 10px;
+  margin-top: 15px;
+  transition: all 400ms ease;
+}
+.rodape .redes ul a:hover {
+  box-shadow: 0px 0px 15px rgba(132, 92, 0, 0.5);
+  cursor: pointer;
+}
+
+/*-----------------IMAGENS REDES-----------*/
+.rodape .redes ul a:nth-child(1) {
+  background: url("../Img/IconFacebook.png") no-repeat center;
+  background-size: cover;
+}
+.rodape .redes ul a:nth-child(2) {
+  background: url("../Img/IconTwitter.png") no-repeat center;
+  background-size: cover;
+}
+.rodape .redes ul a:nth-child(3) {
+  background: url("../Img/IconInstagram.png") no-repeat center;
+  background-size: cover;
+}
+.rodape .redes ul a:nth-child(4) {
+  background: url("../Img/IconLinkedin.png") no-repeat center;
+  background-size: cover;
+}
+/*---------------------------------------------------------------------*/
+
+.rodape .content {
+  background: #010101;
+
+  height: 337px;
+  width: 100%;
+}
+.rodape .content .info {
+  margin-top: 35px;
+}
+.rodape .content .info h3 {
+  color: #fff;
+
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Roboto light", sans-serif;
+
+  letter-spacing: 0.1rem;
+
+  margin-left: 65px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.rodape .content .info h3::after {
+  content: "";
+  display: block;
+  width: 450px;
+  height: 1px;
+  margin: 20px 0px 20px -75px;
+  border-radius: 15px;
+  background: #d6c7a0;
+}
+
+.rodape .content .info p:nth-child(2) {
+  color: #fff;
+
+  font-family: "Roboto thin", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+
+  margin: 25px 0px;
+
+  letter-spacing: 0.1rem;
+}
+
+.rodape .content .info p:nth-child(3) {
+  display: inline-block;
+  color: #fff;
+  width: 460px;
+
+  font-family: "Roboto thin", sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+
+  line-height: 20px;
+  margin: 0px 0px;
+  letter-spacing: 0.1rem;
+}
+
+.rodape .content .map {
+  width: 150px;
+  margin-top: 35px;
+  margin-left: 70px;
+  margin-right: 40px;
+}
+
+.rodape .content .map h3 {
+  color: #fff;
+
+  font-size: 24px;
+  font-weight: 100;
+  font-family: "Roboto light", sans-serif;
+
+  letter-spacing: 0.1rem;
+
+  margin-top: 20px;
+  margin-left: 38px;
+  padding: 10px 0;
+}
+
+.rodape .content .map h3::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 1px;
+  margin: 20px 0 0px -27px;
+  border-radius: 15px;
+  background: #d6c7a0;
+}
+.rodape .content .map p a {
+  display: block;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Roboto light", sans-serif;
+
+  letter-spacing: 0.1rem;
+
+  padding: 5px 0;
+  text-align: center;
+}
+
+.rodape .content .map p a::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 1px;
+  margin: 5px 0 5px 10px;
+  border-radius: 15px;
+  background: #d6c7a0;
+}
+.rodape .content .map p a:hover {
+  color: #d6c7a0;
+  cursor: pointer;
+}
+.rodape .content .designer p {
+  color: #fff;
+  margin: 170px 0 0 0px;
+}
+.rodape .content .designer p span {
+  font-family: "Roboto thin", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  font-style: italic;
+}
+/*----------------------------------------------------------------------*/
+.rodape .copyright {
+  background: #010101;
+  height: 43px;
+  width: 100%;
+
+  border-top: 1px solid #d6c7a0;
+}
+.rodape .copyright p {
+  color: #d6c7a0;
+
+  font-family: "Roboto thin", sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  font-style: italic;
+
+  letter-spacing: 0.1rem;
+  text-align: center;
+  line-height: 40px;
+}
+/*--------------------------------------------------*/
+
+/*--------------------------------------------------*/
+
+.js [data-anime] {
+  opacity: 0;
+}
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: opacity 800ms, transform 800ms;
+}
